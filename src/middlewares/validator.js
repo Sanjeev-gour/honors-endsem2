@@ -3,7 +3,7 @@ import isEmpty from "lodash.isempty";
 
 export const validateSignup = (data) => {
   let errors = {};
-  // Convert empty fields to an empty string so we can use validator functions
+
   data.name = data.userName ? data.userName : "";
   data.email = data.email ? data.email : "";
   data.password = data.password ? data.password : "";
@@ -40,7 +40,7 @@ export const validateSignup = (data) => {
 
 export const validateSignin = (data) => {
   let errors = {};
-  // Convert empty fields to an empty string so we can use validator functions
+  
   data.email = data.email ? data.email : "";
   data.password = data.password ? data.password : "";
 

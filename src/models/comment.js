@@ -6,4 +6,4 @@ var commentSchema = new mongoose.Schema({
   createdBy: { type: mongoose.Schema.ObjectId, ref: "User", required: true },
 });
 
-export default mongoose.model("Comment", commentSchema);
+export default mongoose.model("Comments", commentSchema);

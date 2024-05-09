@@ -23,7 +23,7 @@ const userSchema = Schema({
   },
 });
 
-// encrypt the password before storing
+
 userSchema.methods.encryptPassword = (password) => {
   return bcrypt.hashSync(password, bcrypt.genSaltSync(5), null);
 };
