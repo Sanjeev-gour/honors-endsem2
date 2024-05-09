@@ -4,11 +4,7 @@
 
 - [Introduction](#introduction)
 - [Demo](#demo)
-- [Features](#features)
-- [Technology](#technology)
-- [Database Models](#database)
-- [Run](#run)
-- [License](#license)
+
 
 ## Introduction
 
