@@ -6,6 +6,7 @@ middlewareObject.isNotLoggedIn = (req, res, next) => {
     return next();
   }
   res.redirect("/");
+
 };
 
 middlewareObject.isLoggedIn = (req, res, next) => {

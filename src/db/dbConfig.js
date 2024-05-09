@@ -12,7 +12,7 @@ const connectDB = async () => {
       })
       .catch((error) => console.log(error));
     const connection = mongoose.connection;
-    console.log("MONGODB CONNECTED SUCCESSFULLY!");
+    console.log("Mongo db connection successful!");
   } catch (error) {
     console.log(error);
     return error;

@@ -33,6 +33,7 @@ export const validateSignup = (data) => {
   }
   return {
     errors,
+
     isValid: isEmpty(errors),
   };
 };
