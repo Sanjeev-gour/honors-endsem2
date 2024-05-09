@@ -20,9 +20,7 @@ A virtual blog application using the MERN stack (MongoDB, Express js, React js, 
 
 ![Image description](screenshot-2.png)
 
-This application is deployed on Heroku and can be accessed through the following link:
 
-[MERN Blog on Heroku](https://mern-blog-01.herokuapp.com/)
 
 
 
