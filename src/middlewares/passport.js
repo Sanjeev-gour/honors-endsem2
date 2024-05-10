@@ -7,6 +7,7 @@ const opts = {};
 opts.jwtFromRequest = ExtractJwt.fromAuthHeaderAsBearerToken();
 opts.secretOrKey = process.env.SECRET_KEY;
 
+
 export const passport = () => {
   passport.use(
     new JwtStrategy(opts, async (jwt_payload, done) => {

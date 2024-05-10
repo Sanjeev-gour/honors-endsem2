@@ -1,4 +1,5 @@
 import express from "express";
+
 import {
   getAllPosts,
   getOnePost,
@@ -7,6 +8,7 @@ import {
   deletePost,
   getPostByUserID,
 } from "../services/postServices";
+
 
 const router = express.Router();
 
@@ -69,5 +71,6 @@ router.delete("/:id", async (req, res) => {
     return res.status(500).json({ error: error.toString() });
   }
 });
+
 
 export default router;
